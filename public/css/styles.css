@@ -1,0 +1,116 @@
+html {
+  font-family: "rubik";
+  background-color: #313131 ;
+  min-height: 1000px;
+}
+
+h1 {
+  color: #313131;
+  padding: 10px;
+}
+
+#quote {
+  font-weight: lighter;
+}
+
+.box {
+  max-width: 400px;
+  margin: 5rem auto 0px auto;
+  background: #414141  ;
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #cdd0cb ;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px solid #cdd0cb;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #cdd0cb;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #F1F1F1;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #cdd0cb ;
+  color: #313131;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #cdd0cb;
+}
+
+.intro {
+  margin: 0 auto;
+  text-align: center;
+  color: #FFF;
+  max-width: 400px;
+}
+
+#itemEntry {
+  color: #cdd0cb;
+}
+
+::placeholder {
+  color: #f1f1f1;
+  opacity: 0.5;
+}
+
+footer {
+  margin-top: 2.5rem;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  color: rgb(180, 180, 180);
+  font-weight: 200;
+  font-size: 15px;
+}
